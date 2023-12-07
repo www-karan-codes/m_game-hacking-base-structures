@@ -1,0 +1,3 @@
+[submodule "Math"]
+	path = Math
+	url = git@github.com:www-karan-codes/m_game-hacking-math.git
