@@ -1,4 +1,5 @@
 #include "weapon.hpp"
+#include "player.hpp"
 
 using gamehacking::base_structures::Weapon;
 
@@ -26,6 +27,6 @@ void Weapon::Setup(void* weapon_object)
 
 	if (weapon_object != nullptr)
 	{
-		SetupInternal(weapon_object);
+		SetupInternal();
 	}
 }
